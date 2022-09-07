@@ -4,14 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>HF Skywave Propagation</title>
-        <meta name="description" content="">
+        <meta name="description" content="Heavily simplified demo of HF propagation.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="skywave.css">
     </head>
     <body>
         <div class="ionosphere" id="drag-me">Ionosphere</div>
         <div class="transmitter">Tx</div>
-        <div class="ground"></div>
+        <div class="ground">
+            <p>Frequency: <span id="frequency-text"></span> MHz</p>
+            <input type="range" min="300" max="1500" value="600" class="slider" id="frequency-slider">
+        </div>
         <script src="skywave.js" async defer></script>
     </body>
 </html>
