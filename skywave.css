@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(black, darkblue, skyblue);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.ionosphere{
+    width: 90vw;
+    height: 5vh;
+    line-height: 5vh;
+    position: absolute;
+    top: 30vh;
+    left: 5vh;
+    background: linear-gradient(to right, rgba(255,255,0,0), yellow, rgba(255,255,0,0));
+}
+
+.ground{
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 90vh;
+    background: linear-gradient(sienna, brown);
+}
+
+.transmitter{
+    width: 5vh;
+    height: 5vh;
+    line-height: 5vh;
+    position: absolute;
+    top: 85vh;
+    left: 15vh;
+    border: 3px solid red;
+    background-color: white;
+}
