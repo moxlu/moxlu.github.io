@@ -14,7 +14,7 @@ body {
     height: 5vh;
     line-height: 5vh;
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     left: 5vh;
     background: linear-gradient(to right, rgba(255,255,0,0), yellow, rgba(255,255,0,0));
 }
@@ -39,19 +39,27 @@ body {
     background-color: white;
 }
 
-.slider-freq {
+.slider-freq{
     width: 80vw;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.slider-height {
+.slider-height{
     height: 60vh;
     position: absolute;
     top: 10vh;
-    left: 90vh;
+    left: 93vh;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+  }
+
+#myCanvas{
+    height: 90vh;
+    width: 80vh;
+    position: absolute;
+    top: 0vh;
+    left: 10vh;
   }

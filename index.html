@@ -10,12 +10,13 @@
     </head>
     <body>
         <div class="ionosphere" id="ionosphere">Ionosphere</div>
-        <input type="range" min="50" max="500" value="200" orient="vertical" class="slider-height" id="height-slider">
+        <input type="range" min="0" max="60" value="30" orient="vertical" class="slider-height" id="height-slider">
         <div class="transmitter">Tx</div>
         <div class="ground">
             <p>Frequency: <span id="frequency-text"></span> MHz</p>
             <input type="range" min="300" max="1500" value="600" class="slider-freq" id="frequency-slider">
         </div>
+        <canvas id="myCanvas"></canvas>
         <script src="skywave.js" async defer></script>
     </body>
 </html>

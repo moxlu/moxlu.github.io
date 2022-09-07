@@ -10,8 +10,8 @@ var heightSlider = document.getElementById("height-slider");
 var ionosphere = document.getElementById("ionosphere");
 var height = 200;
 heightSlider.oninput = function() {
-    height = this.value;
-    ionosphere.style.top = ((3000/height)+4) + "vh";
+    height = 65-this.value;
+    ionosphere.style.top = height + "vh";
     // redraw lines?
 }
 
