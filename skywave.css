@@ -14,7 +14,7 @@ body {
     height: 5vh;
     line-height: 5vh;
     position: absolute;
-    top: 30vh;
+    top: 10vh;
     left: 5vh;
     background: linear-gradient(to right, rgba(255,255,0,0), yellow, rgba(255,255,0,0));
 }
@@ -41,15 +41,17 @@ body {
 
 .slider-freq {
     width: 80vw;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .slider-height {
-    width: 80vh;
-    height: 2vh;
-    border-radius: 5px;  
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+    height: 60vh;
+    position: absolute;
+    top: 10vh;
+    left: 90vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }

@@ -5,8 +5,15 @@ frequencyText.innerHTML = frequencySlider.value / 100;
 frequencySlider.oninput = function() {frequencyText.innerHTML = this.value / 100;}
 
 
-
-
+/*for the ionosphere height slider */
+var heightSlider = document.getElementById("height-slider");
+var ionosphere = document.getElementById("ionosphere");
+var height = 200;
+heightSlider.oninput = function() {
+    height = this.value;
+    ionosphere.style.top = ((3000/height)+4) + "vh";
+    // redraw lines?
+}
 
 
 
