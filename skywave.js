@@ -1,4 +1,35 @@
-// Make the DIV element draggable:
+/* for the frequency slider */
+var frequencySlider = document.getElementById("frequency-slider");
+var frequencyText = document.getElementById("frequency-text");
+frequencyText.innerHTML = frequencySlider.value / 100;
+frequencySlider.oninput = function() {frequencyText.innerHTML = this.value / 100;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START DRAGGABLE IONOSPHERE v1
 dragElement(document.getElementById("drag-me"));
 
 function dragElement(elmnt) {
@@ -32,26 +63,6 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+ END DRAGGABLE IONOSPHERE v1 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* todo: stop ionosphere from being moved too far */
+ /* todo: stop ionosphere from being moved too far */

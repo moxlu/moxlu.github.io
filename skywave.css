@@ -22,7 +22,7 @@ body {
 .ground{
     width: 100vw;
     height: 10vh;
-    line-height: 4vh;
+    line-height: 2vh;
     position: absolute;
     top: 90vh;
     background: linear-gradient(sienna, brown);
@@ -39,8 +39,11 @@ body {
     background-color: white;
 }
 
-.slider {
-    -webkit-appearance: none;
+.slider-freq {
+    width: 80vw;
+}
+
+.slider-height {
     width: 80vh;
     height: 2vh;
     border-radius: 5px;  
